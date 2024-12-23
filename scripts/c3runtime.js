@@ -1362,12 +1362,11 @@ self.C3_ExpressionFuncs = [
 		() => "close",
 		() => "open",
 		() => "Animation 1",
-		() => 0.2,
+		() => 0.1,
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
 		},
-		() => 0.1,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();

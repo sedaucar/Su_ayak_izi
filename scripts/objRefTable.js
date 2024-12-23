@@ -38,7 +38,6 @@ self.C3_GetObjectRefTable = function () {
 };
 self.C3_JsPropNameTable = [
 	{btnBasla: 0},
-	{btnBilgi: 0},
 	{kapla: 0},
 	{btnFullScreen: 0},
 	{btnHazirlayanlar: 0},
@@ -47,7 +46,6 @@ self.C3_JsPropNameTable = [
 	{durum: 0},
 	{btnMuzik: 0},
 	{btnSes: 0},
-	{btnButon: 0},
 	{btnKapat: 0},
 	{Touch: 0},
 	{Mouse: 0},
@@ -57,7 +55,6 @@ self.C3_JsPropNameTable = [
 	{home: 0},
 	{Flash: 0},
 	{veri: 0},
-	{bilgiEkran: 0},
 	{hazirlayanlar: 0},
 	{kaynakca: 0},
 	{s: 0},
@@ -72,14 +69,12 @@ self.C3_JsPropNameTable = [
 
 self.InstanceType = {
 	btnBasla: class extends self.ISpriteInstance {},
-	btnBilgi: class extends self.ISpriteInstance {},
 	btnFullScreen: class extends self.ISpriteInstance {},
 	btnHazirlayanlar: class extends self.ISpriteInstance {},
 	btnHome: class extends self.ISpriteInstance {},
 	btnKaynakca: class extends self.ISpriteInstance {},
 	btnMuzik: class extends self.ISpriteInstance {},
 	btnSes: class extends self.ISpriteInstance {},
-	btnButon: class extends self.ISpriteInstance {},
 	btnKapat: class extends self.ISpriteInstance {},
 	Touch: class extends self.IInstance {},
 	Mouse: class extends self.IInstance {},
@@ -88,7 +83,6 @@ self.InstanceType = {
 	gameBackground: class extends self.ISpriteInstance {},
 	home: class extends self.ISpriteInstance {},
 	veri: class extends self.ISpriteInstance {},
-	bilgiEkran: class extends self.ISpriteInstance {},
 	hazirlayanlar: class extends self.ISpriteInstance {},
 	kaynakca: class extends self.ISpriteInstance {},
 	resimler: class extends self.ISpriteInstance {},
