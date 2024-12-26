@@ -47,6 +47,8 @@ self.C3_JsPropNameTable = [
 	{btnMuzik: 0},
 	{btnSes: 0},
 	{btnKapat: 0},
+	{btnBilgi: 0},
+	{btnButonlar: 0},
 	{Touch: 0},
 	{Mouse: 0},
 	{Audio: 0},
@@ -63,6 +65,8 @@ self.C3_JsPropNameTable = [
 	{dizi: 0},
 	{a: 0},
 	{cizgi: 0},
+	{bilgiSayfa: 0},
+	{butonSayfa: 0},
 	{butonlar: 0},
 	{b: 0}
 ];
@@ -76,6 +80,8 @@ self.InstanceType = {
 	btnMuzik: class extends self.ISpriteInstance {},
 	btnSes: class extends self.ISpriteInstance {},
 	btnKapat: class extends self.ISpriteInstance {},
+	btnBilgi: class extends self.ISpriteInstance {},
+	btnButonlar: class extends self.ISpriteInstance {},
 	Touch: class extends self.IInstance {},
 	Mouse: class extends self.IInstance {},
 	Audio: class extends self.IInstance {},
@@ -88,5 +94,7 @@ self.InstanceType = {
 	resimler: class extends self.ISpriteInstance {},
 	dizi: class extends self.IArrayInstance {},
 	cizgi: class extends self.ISpriteInstance {},
+	bilgiSayfa: class extends self.ISpriteInstance {},
+	butonSayfa: class extends self.ISpriteInstance {},
 	butonlar: class extends self.ISpriteInstance {}
 }
